@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            CSS
+        </title>
+        <script type="text/javascript" src="game2.js"></script>
+        <link rel="stylesheet" href="game2.css">
+    </head>
+    <body>
+        <h1>This is a quiz on CSS</h1>
+
+        <!--question 1-->
+        <div class="flex-container">
+            <div>
+                <h3>Which is the correct css style syntax?</h3>
+                <input type="radio" name="option1" value="o1.1" id="q1.1">
+                <label for="q1.1">{body;color:black}</label><br>
+                <input type="radio" name="option1" value="o1.2" id="q1.2">
+                <label for="q1.2">{body:color}=black</label><br>
+                <input type="radio" name="option1" value="o1.3" id="q1.3">
+                <label for="q1.3">body{color:black;}</label><br>
+                <input type="radio" name="option1" value="o1.4" id="q1.4">
+                <label for="q1.4">body:color=black;</label><br><br><br>
+            </div>
+            <!--question 2-->
+            <div>
+                <h3>How do you display hyperlinks without an underline?</h3>
+                <input type="radio" name="option2" value="o2.1" id="q2.1">
+                <label for="q2.1">#a{text-decoration:no-underline;}</label><br>
+                <input type="radio" name="option2" value="o2.2" id="q2.2">
+                <label for="q2.2">a{text-decoration:none;}</label><br>
+                <input type="radio" name="option2" value="o2.3" id="q2.3">
+                <label for="q2.3">{a:underline:none;}</label><br>
+                <input type="radio" name="option2" value="o2.4" id="q2.4">
+                <label for="q2.4">.a{text-decoration:no-underline;}</label><br><br><br>
+            </div> 
+            <!--question 3-->
+            <div>
+                <h3>Which selector has the highest precedence?</h3>
+                <input type="radio" name="option3" value="o3.1" id="q3.1">
+                <label for="q3.1">ID selector</label><br>
+                <input type="radio" name="option3" value="o3.2" id="q3.2">
+                <label for="q3.2">Generic selector</label><br>
+                <input type="radio" name="option3" value="o3.3" id="q3.3">
+                <label for="q3.3">Class selector</label><br>
+                <input type="radio" name="option3" value="o3.4" id="q3.4">
+                <label for="q3.4">Universal selector</label><br><br>
+            </div>
+            <!--question 4-->
+            <div>
+                <h3>How do you select all p elements inside a div element?</h3>
+                <input type="radio" name="option4" value="o4.1" id="q4.1">
+                <label for="q4.1">div &gt; p</label><br>
+                <input type="radio" name="option4" value="o4.2" id="q4.2">
+                <label for="q4.2">div &lt; p</label><br>
+                <input type="radio" name="option4" value="o4.3" id="q4.3">
+                <label for="q4.3">div.p</label><br>
+                <input type="radio" name="option4" value="o4.4" id="q4.4">
+                <label for="q4.4">div + p</label><br><br>
+            </div>
+            <!--question 5-->
+            <div>
+                <h3>How to give higher preference to a property/value in css?</h3>
+                <input type="radio" name="option5" value="o5.1" id="q5.1">
+                <label for="q5.1">important</label><br>
+                <input type="radio" name="option5" value="o5.2" id="q5.2">
+                <label for="q5.2">!prefer</label><br>
+                <input type="radio" name="option5" value="o5.3" id="q5.3">
+                <label for="q5.3">prefer</label><br>
+                <input type="radio" name="option5" value="o5.4" id="q5.4">
+                <label for="q5.4">!important</label><br><br>
+            </div>
+        </div>
+        <div class="anything">
+            <input type="submit" onclick="question()" class="btn"><br><br>
+        </div>
+        
+        
+        
+    </body>
+</html>
